@@ -1,0 +1,29 @@
+.file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+}
+
+#upload-button {
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 50px
+}
+
+.rdt_Table {
+    width: 1400px;
+    height: 650px;
+}

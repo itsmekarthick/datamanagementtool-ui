@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    font-family: inherit;
+    background: white;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.logout_button {
+    display: block;
+    margin: auto 2rem auto auto;
+    padding: 0.75rem 1rem;
+    border-radius: 25px;
+    outline: 0;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: white;
+    border: 2px solid transparent;
+  }
+  
+  .logout_button:hover {
+    border: 2px solid #4e65f7;
+  }
